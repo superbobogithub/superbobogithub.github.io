@@ -37,7 +37,7 @@
     <link rel="alternate" type="application/rss+xml" title="索马里猫" href="/atom.xml">
     
 
-    <link rel="canonical" href="http://yoursite.com"/>
+    <link rel="canonical" href="http://yoursite.com/2016/04/21/hexo常用命令/"/>
 
     
 </head>
@@ -50,7 +50,7 @@
     </span>
 
     
-<header class="panel-cover " style="background-image: url(/images/background-cover.jpg)">
+<header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/background-cover.jpg)">
   <div class="panel-main">
     <div class="panel-main__inner panel-inverted">
     <div class="panel-main__content">
@@ -137,135 +137,54 @@
 
     <div class="content-wrapper">
         <div class="content-wrapper__inner">
-            <div class="main-post-list">
-    
-  <ol class="post-list">
-  
-    
-    <li>
-      <h2 class="post-list__post-title post-title"><a href="/2016/04/21/hexo常用命令/" title="link to post.title"></a></h2>
-      <p class="excerpt">
-    
-      
-title: hexo常用命令date: 2016-04-21 10:47:48
-comments: true
-  http://segmentfault.com/a/1190000002632530主题 Hexo简写
-hexo n == hexo new
-hexo p == hexo publish
-hexo g == hexo generate
-hexo s == hexo server
-hexo d == hexo deploy服务器
-hexo server #Hexo 会监视文件变动并
-    &hellip;
-      </p>
-      <div class="post-list__meta"><time datetime="2016-04-21T02:51:23.000Z" class="post-list__meta--date date">2016-04-21</time> &#8226; <span class="post-list__meta--tags tags">于&nbsp;</span><a class="btn-border-small" href="/2016/04/21/hexo常用命令/">继续阅读</a></div>
-      <hr class="post-list__divider" />
-    </li>
-  
-    
-    <li>
-      <h2 class="post-list__post-title post-title"><a href="/2016/04/20/5、Markdown语法简单使用/" title="link to post.title">Markdown语法简单使用</a></h2>
-      <p class="excerpt">
-    
-      
-Markdown下载
-Markdown简单使用
-Markdown详细使用
+            <article class="post-container post-container--single">
 
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="2016-04-21T02:51:23.000Z" class="post-list__meta--date date">2016-04-21</time> &#8226; <span class="post-meta__tags tags">于&nbsp;</span>
+    </div>
+    <h1 class="post-title"></h1>
+  </header>
 
-一级标题二级标题三级标题  总共六级
-无序列表
-列表1
-列表2
+  <section class="post">
+    <hr>
+<p>title: hexo常用命令<br>date: 2016-04-21 10:47:48</p>
+<p>comments: true</p>
+<p>  <a href="http://segmentfault.com/a/1190000002632530" target="_blank" rel="external">http://segmentfault.com/a/1190000002632530</a><br>主题 Hexo<br>简写</p>
+<p>hexo n == hexo new</p>
+<p>hexo p == hexo publish</p>
+<p>hexo g == hexo generate</p>
+<p>hexo s == hexo server</p>
+<p>hexo d == hexo deploy<br>服务器</p>
+<p>hexo server #Hexo 会监视文件变动并自动更新，您无须重启服务器。</p>
+<p>hexo server -s #静态模式</p>
+<p>hexo server -p 5000 #更改端口</p>
+<p>hexo server -i 192.168.1.1 #自定义 IP</p>
+<p>hexo clean #清除缓存 网页正常情况下可以忽略此条命令</p>
+<p>hexo g #生成静态网页</p>
+<p>hexo d #开始部署<br>监视文件变动</p>
+<p>hexo generate #使用 Hexo 生成静态文件快速而且简单</p>
+<p>hexo generate –watch #监视文件变动<br>完成后部署</p>
+<p>两个命令的作用是相同的<br>hexo generate –deploy hexo deploy –generate</p>
+<p>hexo deploy -g hexo server -g<br>草稿</p>
+<p>hexo publish [layout] &lt;title&gt;<br>模版</p>
+<p>hexo new “postName” #新建文章</p>
+<p>hexo new page “pageName” #新建页面</p>
+<p>hexo generate #生成静态页面至public目录</p>
+<p>hexo server #开启预览访问端口（默认端口4000，’ctrl + c’关闭server）</p>
+<p>hexo deploy #将.deploy目录部署到GitHub<br>hexo new [layout] <title> hexo new photo “My Gallery” hexo new “Hello World” –lang tw<br>变量     描述<br>layout     布局<br>title     标题<br>date     文件建立日期</title></p>
+<p>title: 使用Hexo搭建个人博客<br>layout: post<br>date: 2014-03-03 19:07:43<br>comments: true<br>categories: Blog<br>tags: [Hexo]<br>keywords: Hexo, Blog<br>description: 生命在于折腾，又把博客折腾到Hexo了。给Hexo点赞。</p>
+<p>模版（Scaffold）</p>
+<p>hexo new photo &quot;My Gallery&quot;<br>变量     描述<br>layout     布局<br>title     标题<br>date     文件建立日期<br>写作<br>hexo new page <title> hexo new post <title><br>变量     描述<br>:title     标题<br>:year     建立的年份（4 位数）<br>:month     建立的月份（2 位数）<br>:i_month     建立的月份（去掉开头的零）<br>:day     建立的日期（2 位数）<br>:i_day     建立的日期（去掉开头的零）<br>推送到服务器上</title></title></p>
+<p>hexo n #写文章</p>
+<p>hexo g #生成</p>
+<p>hexo d #部署 #可与 hexo g 合并为 hexo d -g<br>报错<br>1.</p>
+<p>ERROR Deployer not found: git</p>
+<p>npm install hexo-deployer-git –save</p>
 
+  </section>
 
-有序列表
-文本1
-文本2
-文本3
-
-
-链接图片博客
-引用
-一盏灯， 一片昏黄； 一简书， 一杯淡茶。 守着那一份淡定， 品读属于自己的寂寞。 保持淡定， 才能欣赏到最美丽的风景！ 保持淡定， 人生从此不再寂寞。
-
-诗的引用
-白毛浮绿水锄禾日当午
-
-粗体和斜体一盏灯， 一片昏黄；一简书， 一杯淡茶。 守着那一份淡定， 品读属于自己的寂寞。 保持淡定， 
-    &hellip;
-      </p>
-      <div class="post-list__meta"><time datetime="2016-04-20T03:59:12.000Z" class="post-list__meta--date date">2016-04-20</time> &#8226; <span class="post-list__meta--tags tags">于&nbsp;</span><a class="btn-border-small" href="/2016/04/20/5、Markdown语法简单使用/">继续阅读</a></div>
-      <hr class="post-list__divider" />
-    </li>
-  
-    
-    <li>
-      <h2 class="post-list__post-title post-title"><a href="/2016/04/20/2、搭建免费个人博客/" title="link to post.title">搭建免费个人博客</a></h2>
-      <p class="excerpt">
-    
-      网址：http://www.jianshu.com/p/4eaddcbe4d12提交博客: hexo clean &amp;amp;&amp;amp; hexo g &amp;amp;&amp;amp; hexo d
-
-    &hellip;
-      </p>
-      <div class="post-list__meta"><time datetime="2016-04-20T03:59:12.000Z" class="post-list__meta--date date">2016-04-20</time> &#8226; <span class="post-list__meta--tags tags">于&nbsp;</span><a class="btn-border-small" href="/2016/04/20/2、搭建免费个人博客/">继续阅读</a></div>
-      <hr class="post-list__divider" />
-    </li>
-  
-    
-    <li>
-      <h2 class="post-list__post-title post-title"><a href="/2016/04/20/4、如何写一篇hexo博客/" title="link to post.title">如何写一篇hexo博客</a></h2>
-      <p class="excerpt">
-    
-      http://www.jianshu.com/p/3c7ddd48bfa9七牛云
-外链图床
-
-Hexo使用markdown语法的纯文本编辑，文件后缀名.m ,文件存放在：我们的站点目录下/source/_post 文件夹下
-文件生成方式：
-hexonewlayout 文件名    例：hexonewpostHelloWorld  如果文件名中有空格必须给文件名加引号 hexonewpost”Hello World”
-layout是可选的，默认为post,layout有哪些呢，我们可以到我们的站点
-    &hellip;
-      </p>
-      <div class="post-list__meta"><time datetime="2016-04-20T03:59:12.000Z" class="post-list__meta--date date">2016-04-20</time> &#8226; <span class="post-list__meta--tags tags">于&nbsp;</span><a class="btn-border-small" href="/2016/04/20/4、如何写一篇hexo博客/">继续阅读</a></div>
-      <hr class="post-list__divider" />
-    </li>
-  
-    
-    <li>
-      <h2 class="post-list__post-title post-title"><a href="/2016/04/20/3、PostPhoto/" title="link to post.title">我的图片</a></h2>
-      <p class="excerpt">
-    
-      photos:
-
-美女
-
-
-
-    &hellip;
-      </p>
-      <div class="post-list__meta"><time datetime="2016-04-20T03:59:12.000Z" class="post-list__meta--date date">2016-04-20</time> &#8226; <span class="post-list__meta--tags tags">于&nbsp;</span><a class="btn-border-small" href="/2016/04/20/3、PostPhoto/">继续阅读</a></div>
-      <hr class="post-list__divider" />
-    </li>
-  
-    
-    <li>
-      <h2 class="post-list__post-title post-title"><a href="/2016/04/20/hello-world/" title="link to post.title">SuperBobo</a></h2>
-      <p class="excerpt">
-    
-      我已经流浪了如此之久，怎样的战斗在等待着我
-
-    &hellip;
-      </p>
-      <div class="post-list__meta"><time datetime="2016-04-20T03:59:12.000Z" class="post-list__meta--date date">2016-04-20</time> &#8226; <span class="post-list__meta--tags tags">于&nbsp;</span><a class="btn-border-small" href="/2016/04/20/hello-world/">继续阅读</a></div>
-      <hr class="post-list__divider" />
-    </li>
-  
-    
-  </ol>
-
-
-
-</div>
+</article>
 
 
 
