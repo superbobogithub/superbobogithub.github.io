@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    
+    <title>mac 命令行 zsh | 索马里猫</title>
+    <meta name="renderer" content="webkit">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <meta name="description" content="爱好猫咪，喜欢苹果，热爱编程！">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="mac 命令行 zsh | 索马里猫">
+    <meta name="twitter:description" content="爱好猫咪，喜欢苹果，热爱编程！">
+
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="mac 命令行 zsh | 索马里猫">
+    <meta property="og:description" content="爱好猫咪，喜欢苹果，热爱编程！">
+
+    
+    <meta name="author" content="SuperBobo">
+    
+    <link rel="stylesheet" href="/css/vno.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+
+    
+    <link rel="icon" href="/images/favicon.png">
+    
+
+    <meta name="generator" content="hexo"/>
+    
+    <link rel="alternate" type="application/rss+xml" title="索马里猫" href="/atom.xml">
+    
+
+    <link rel="canonical" href="http://yoursite.com/2016/05/09/OhMyZsh/"/>
+
+    
+</head>
+
+<body class="home-template no-js">
+
+    <span class="mobile btn-mobile-menu">
+        <i class="fa fa-list btn-mobile-menu__icon"></i>
+        <i class="fa fa-angle-up btn-mobile-close__icon hidden"></i>
+    </span>
+
+    
+<header class="panel-cover panel-cover--collapsed" style="background-image: url(/images/background-cover.jpg)">
+  <div class="panel-main">
+    <div class="panel-main__inner panel-inverted">
+    <div class="panel-main__content">
+
+        <a href="/" title="前往 索马里猫 的主页"><img src="/images/logo2.jpg" width="80" alt="索马里猫 logo" class="panel-cover__logo logo" /></a>
+        <h1 class="panel-cover__title panel-title"><a href="/" title="link to homepage for 索马里猫">索马里猫</a></h1>
+        
+        <hr class="panel-cover__divider" />
+        <p class="panel-cover__description"></p>
+        <hr class="panel-cover__divider panel-cover__divider--secondary" />
+
+        <div class="navigation-wrapper">
+          <div>
+          <nav class="cover-navigation cover-navigation--primary">
+            <ul class="navigation">
+              <li class="navigation__item"><a href="/#blog" title="访问博客" class="blog-button">博客</a></li>
+            
+              <li class="navigation__item"><a href="http://www.cnblogs.com/superbobo/">关于我</a></li>
+            
+            </ul>
+          </nav>
+          </div>
+          <div>
+          <nav class="cover-navigation navigation--social">
+  <ul class="navigation">
+
+  <!-- Weibo-->
+  
+  <li class="navigation__item">
+    <a href="http://www.cnblogs.com/superbobo/" title="我的微博" target="_blank">
+      <i class='social fa fa-weibo'></i>
+      <span class="label">Weibo</span>
+    </a>
+  </li> 
+
+
+  <!-- Github -->
+  
+  <li class="navigation__item">
+    <a href="https://github.com/superbobogithub" title="查看我的GitHub主页" target="_blank">
+      <i class='social fa fa-github'></i>
+      <span class="label">Github</span>
+    </a>
+  </li>
+
+
+<!-- Stack Overflow -->
+        
+
+  <!-- Google Plus -->
+  
+
+<!-- Facebook -->
+
+  
+<!-- Twitter -->
+
+  
+
+  <li class="navigation__item">
+    <a href="/atom.xml" title="RSS" target="_blank">
+      <i class='social fa fa-rss'></i>
+      <span class="label">RSS</span>
+    </a>
+  </li>
+
+
+
+  </ul>
+</nav>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="panel-cover--overlay cover-blue"></div>
+  </div>
+</header>
+
+    <div class="content-wrapper">
+        <div class="content-wrapper__inner">
+            <article class="post-container post-container--single">
+
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="2016-05-09T09:09:36.000Z" class="post-list__meta--date date">2016-05-09</time> &#8226; <span class="post-meta__tags tags">于&nbsp;</span>
+    </div>
+    <h1 class="post-title">mac 命令行 zsh</h1>
+  </header>
+
+  <section class="post">
+    <p>#mac &#x547D;&#x4EE4;&#x884C; zsh</p>
+<p>&#x5199;&#x5728;&#x524D;&#x9762;<br>&#x5207;&#x6362;&#x547D;&#x4EE4;&#x884C;&#x6A21;&#x5F0F;<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">chsh <span class="_">-s</span></span><br></pre></td></tr></table></figure></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sh -c <span class="string">&quot;<span class="variable">$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)</span>&quot;</span></span><br><span class="line"></span><br><span class="line">git <span class="built_in">clone</span> git://github.com/altercation/solarized.git</span><br></pre></td></tr></table></figure>
+<p>&#x627E;&#x5230;solarized/osx-terminal.app-colors-solarized&#xFF0C;&#x53CC;&#x51FB; Solarized Dark ansi.terminal &#x548C; Solarized Light ansi.terminal</p>
+<p>&#x6240;&#x8C13;zsh&#x5176;&#x5B9E;&#x662F;Shell&#x7684;&#x4E00;&#x79CD;&#xFF0C;Shell&#x662F;&#x5565;&#x5177;&#x4F53;&#x7684;&#x5C31;&#x4E0D;&#x7ED9;&#x5927;&#x5BB6;&#x8BB2;&#x4E86;&#xFF0C;&#x56E0;&#x4E3A;&#x6211;&#x4E5F;&#x6CA1;&#x5F80;&#x91CC;&#x9762;&#x7814;&#x7A76;&#xFF0C;&#x56E0;&#x4E3A;&#x6BD5;&#x7ADF;&#x6211;&#x81EA;&#x5DF1;&#x7528;Shell&#x7684;&#x573A;&#x666F;&#x5E76;&#x4E0D;&#x591A;&#xFF0C;&#x6240;&#x4EE5;&#x53EA;&#x662F;&#x7A0D;&#x5FAE;&#x4E86;&#x89E3;&#x4E86;&#x4E00;&#x4E0B;&#x76AE;&#x6BDB;&#x3002;&#x53EA;&#x7ED9;&#x5927;&#x5BB6;&#x7B80;&#x5355;&#x8BF4;&#x4E00;&#x4E0B;&#xFF0C;Shell&#x5BF9;&#x4E8E;&#x5728;Linux&#x4E0E;Unix&#x5E73;&#x53F0;&#x4E0A;&#x7684;&#x5F00;&#x53D1;&#x8005;&#x5E76;&#x4E0D;&#x964C;&#x751F;&#xFF0C;&#x56E0;&#x4E3A;&#x5168;&#x9760;&#x5B83;&#x5F00;&#x53D1;&#x8005;&#x624D;&#x53EF;&#x4EE5;&#x4E0E;&#x673A;&#x5668;&#x8FDB;&#x884C;&#x4EA4;&#x4E92;&#xFF0C;&#x5B83;&#x662F;Linux&#x4E0E;Unix&#x7684;&#x4E00;&#x4E2A;&#x5916;&#x58F3;&#xFF0C;&#x8D1F;&#x8D23;&#x5916;&#x754C;&#x4E0E;&#x5176;&#x8BA1;&#x7B97;&#x673A;&#x5185;&#x6838;&#x8FDB;&#x884C;&#x4EA4;&#x4E92;&#xFF0C;&#x5B83;&#x63A5;&#x6536;&#x7528;&#x6237;&#x6216;&#x5176;&#x4ED6;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x7684;&#x547D;&#x4EE4;&#xFF0C;&#x7136;&#x540E;&#x628A;&#x8FD9;&#x4E9B;&#x547D;&#x4EE4;&#x8F6C;&#x5316;&#x6210;&#x5185;&#x6838;&#x80FD;&#x7406;&#x89E3;&#x7684;&#x8BED;&#x8A00;&#xFF0C;&#x7136;&#x540E;&#x4F20;&#x7ED9;&#x5185;&#x6838;&#xFF0C;&#x5185;&#x6838;&#x63A5;&#x6536;&#x6307;&#x4EE4;&#x5F00;&#x59CB;&#x5E72;&#x6D3B;&#xFF0C;&#x5E72;&#x5B8C;&#x6D3B;&#x7136;&#x540E;&#x628A;&#x7ED3;&#x679C;&#x8FD4;&#x56DE;&#x7ED9;&#x7528;&#x6237;&#x6216;&#x8005;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x3002;</p>
+<p>Linux/Unix&#x6709;&#x591A;&#x79CD;&#x7C7B;&#x578B;&#x7684;Shell&#xFF0C;&#x6BD4;&#x5982;bash&#x3001;csh&#x3001;ksh&#x3001;zsh&#x7B49;&#x7B49;&#xFF0C;&#x4F60;&#x4E5F;&#x53EF;&#x4EE5;&#x7528;cat /etc/shells&#x8FD9;&#x4E2A;&#x547D;&#x4EE4;&#x6765;&#x770B;&#x4E00;&#x4E0B;&#x4F60;&#x7684;&#x7535;&#x8111;&#x4E2D;&#x5B58;&#x5728;&#x6709;&#x51E0;&#x79CD;Shell&#xFF0C;&#x81F3;&#x4E8E;&#x4E3A;&#x5565;&#x5B50;&#x6709;&#x8FD9;&#x4E48;&#x591A;&#x79CD;Shell&#xFF0C;&#x602A;&#x6211;&#x54AF;&#xFF0C;&#x6BCF;&#x4E2A;&#x4EBA;&#x4E60;&#x60EF;&#x4E0D;&#x540C;&#xFF0C;&#x7136;&#x540E;&#x7528;&#x7684;&#x529F;&#x80FD;&#x6216;&#x8005;&#x5565;&#x7684;&#x559C;&#x597D;&#x4E5F;&#x4E0D;&#x540C;&#xFF0C;&#x8FD9;&#x5C31;&#x597D;&#x6BD4;&#x4F60;&#x4E70;&#x623F;&#x5B50;&#xFF0C;&#x5373;&#x4F7F;&#x662F;&#x4E00;&#x79CD;&#x6237;&#x578B;&#x7684;&#x623F;&#x5B50;&#x4EBA;&#x4E0D;&#x8FD8;&#x662F;&#x9700;&#x8981;&#x4E0D;&#x540C;&#x7684;&#x5BA4;&#x5185;&#x8BBE;&#x8BA1;&#x561B;&#xFF0C;&#x4E00;&#x4E2A;&#x9053;&#x7406;&#x3002;</p>
+<p>zsh&#x8BF4;&#x5B9E;&#x8BDD;&#x771F;&#x5FC3;&#x7684;&#x6BD4;&#x8F83;&#x590D;&#x6742;&#xFF0C;&#x5404;&#x79CD;&#x914D;&#x7F6E;&#xFF0C;&#x4F46;&#x662F;&#x914D;&#x7F6E;&#x51FA;&#x6765;&#x529F;&#x80FD;&#x7EDD;&#x5BF9;&#x662F;6&#x7684;&#x4E00;B&#xFF0C;&#x8981;&#x4E48;&#x5F88;&#x591A;&#x4EBA;&#x90FD;&#x79F0;&#x5176;&#x4E3A;&#x7EC8;&#x6781;Shell&#xFF0C;&#x4E3A;&#x561B;&#xFF0C;&#x56E0;&#x4E3A;ABCDEFG&#x2026;Z&#x662F;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#xFF0C;&#x6240;&#x4EE5;&#x3002;&#x3002;&#x3002;&#x521D;&#x671F;&#x7684;&#x65F6;&#x5019;&#x5F88;&#x5C11;&#x6709;&#x4EBA;&#x5BF9;&#x5B83;&#x8FDB;&#x884C;&#x4F7F;&#x7528;&#xFF0C;&#x7531;&#x4E8E;&#x8FD9;&#x4E2A;&#x539F;&#x56E0;&#xFF0C;&#x56FD;&#x5916;&#x5927;&#x795E;&#x4FBF;&#x5BF9;&#x5B83;&#x8FDB;&#x884C;&#x4E86;&#x4E00;&#x7CFB;&#x5217;&#x7684;&#x7B80;&#x5316;&#x5C01;&#x88C5;&#xFF0C;&#x6700;&#x7EC8;&#x5F62;&#x6210;&#x4E86;Oh-My-Zsh&#x3002;</p>
+<p>##Oh-My-Zsh</p>
+<p>&#x4E0D;&#x8981;&#x4EE5;&#x4E3A;&#x5B83;&#x53EA;&#x662F;&#x4E2A;&#x547D;&#x4EE4;&#x884C;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x770B;&#x770B;&#x4ED6;&#x4EEC;<a href="http://ohmyz.sh" target="_blank" rel="external">&#x5B98;&#x65B9;&#x7F51;&#x7AD9;</a>&#x5BF9;&#x5B83;&#x7684;&#x63CF;&#x8FF0;&#xFF0C;&#x5F88;&#x591A;&#x4EBA;&#x5BF9;&#x5B83;&#x62A5;&#x4EE5;&#x975E;&#x5E38;&#x9AD8;&#x7684;&#x8BC4;&#x4EF7;&#xFF0C;&#x7B97;&#x4E86;&#x5E9F;&#x8BDD;&#x4E0D;&#x591A;&#x8BF4;&#xFF0C;&#x76F4;&#x63A5;&#x4E0A;&#x5E72;&#x8D27;&#x5427;&#x3002;&#x5982;&#x4F55;&#x5B89;&#x88C5;Oh-My-Zsh&#x5462;&#xFF1F;</p>
+<p>##&#x5B89;&#x88C5;Oh-My-Zsh</p>
+<p>&#x5148;&#x5C06;&#x5176;<a href="https://github.com/robbyrussell/oh-my-zsh" target="_blank" rel="external">gitHub&#x4E0A;&#x7684;&#x5730;&#x5740;</a>&#x53D1;&#x51FA;&#x6765;&#x7ED9;&#x5927;&#x5BB6;&#x53C2;&#x8003;&#x3002;</p>
+<p>&#x5176;&#x5B9E;&#x8BF4;&#x5B9E;&#x8BDD;&#xFF0C;gitHub&#x4E0A;&#x7684;README.markdown&#x5DF2;&#x7ECF;&#x8BB2;&#x7684;&#x975E;&#x5E38;&#x6E05;&#x695A;&#x4E86;&#xFF0C;&#x6211;&#x5EFA;&#x8BAE;&#x5927;&#x5BB6;&#x53EF;&#x4EE5;&#x81EA;&#x5DF1;&#x770B;&#x4E00;&#x4E0B;&#x7136;&#x540E;&#x5B89;&#x88C5;&#xFF0C;&#x4F46;&#x662F;&#x4E5F;&#x4E3A;&#x4E86;&#x7167;&#x987E;&#x4E00;&#x4E9B;&#x60F3;&#x5FEB;&#x901F;&#x4E0A;&#x624B;&#x61D2;&#x5F97;&#x770B;&#x82F1;&#x8BED;&#x7684;&#x540C;&#x5B66;&#x4EEC;&#xFF0C;&#x6211;&#x8FD8;&#x662F;&#x5C06;&#x5176;&#x518D;&#x8BF4;&#x4E00;&#x4E0B;&#x3002;<br>&#x5B89;&#x88C5;Oh-My-Zsh&#x9700;&#x8981;&#x51E0;&#x4E2A;&#x5148;&#x51B3;&#x6761;&#x4EF6;&#xFF1A;</p>
+<ul>
+<li>&#x5FC5;&#x987B;&#x662F;&#x57FA;&#x4E8E;Unix&#x7684;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#xFF08;Mac OS X &#x6216;&#x8005; Linux&#xFF09;</li>
+<li>Zsh&#x5FC5;&#x987B;&#x8981;&#x9996;&#x5148;&#x5B89;&#x88C5;&#xFF08;&#x8981;&#x6C42;&#x7248;&#x672C;&#x5728;4.3.9&#x6216;&#x8005;&#x66F4;&#x9AD8;&#x7684;&#xFF09;&#xFF0C;&#x5982;&#x679C;&#x4F60;&#x4E0D;&#x786E;&#x5B9A;&#x81EA;&#x5DF1;&#x7684;&#x7535;&#x8111;&#x662F;&#x5426;&#x5DF2;&#x7ECF;&#x5B89;&#x88C5;&#x4E86;Zsh&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x7528;zsh &#x2013;version&#x8FD9;&#x4E2A;&#x547D;&#x4EE4;&#x6765;&#x786E;&#x5B9A;&#x81EA;&#x5DF1;&#x70B9;&#x662F;&#x5426;&#x5DF2;&#x7ECF;&#x5B89;&#x88C5;&#x4E86;zsh&#x3002;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x5B89;&#x88C5;&#x5219;&#x8FD0;&#x884C;sudo apt-get install zsh&#xFF0C;&#x7136;&#x540E;&#x5728;&#x8FD0;&#x884C;zsh &#x2013;version&#x8FD9;&#x4E2A;&#x547D;&#x4EE4;&#xFF0C;&#x6765;&#x68C0;&#x67E5;&#x662F;&#x5426;&#x5B89;&#x88C5;&#x6210;&#x529F;&#x3002;&#x5982;&#x679C;&#x6210;&#x529F;&#x5219;&#x7EE7;&#x7EED;&#x3002;</li>
+<li>&#x7535;&#x8111;&#x8981;&#x5B89;&#x88C5;curl&#x6216;&#x8005;wget&#xFF08;&#x8FD9;&#x4E2A;&#x5B89;&#x88C5;&#x81EA;&#x5DF1;&#x67E5;&#xFF09;</li>
+<li>&#x7535;&#x8111;&#x8981;&#x5B89;&#x88C5;git&#xFF08;&#x8FD9;&#x4E2A;&#x6211;&#x89C9;&#x5F97;&#x5F00;&#x53D1;&#x7684;&#x5E94;&#x8BE5;&#x90FD;&#x4F1A;&#xFF09;<br>&#x63A5;&#x4E0B;&#x6765;&#x5C31;&#x662F;&#x5B89;&#x88C5;&#x4E86;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x9009;&#x62E9;&#x7528;curl&#x6216;&#x8005;wget&#x3002;&#x4E0B;&#x9762;&#x662F;&#x4E24;&#x79CD;&#x65B9;&#x6CD5;&#xFF0C;</li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">//curl&#xFF1A;</span><br><span class="line">curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh</span><br><span class="line">//wget&#xFF1A;</span><br><span class="line">wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O</span><br></pre></td></tr></table></figure>
+<h2 id="&#x4F7F;&#x7528;Oh-My-Zsh"><a href="#&#x4F7F;&#x7528;Oh-My-Zsh" class="headerlink" title="&#x4F7F;&#x7528;Oh-My-Zsh"></a>&#x4F7F;&#x7528;Oh-My-Zsh</h2><p>&#x5B89;&#x88C5;&#x5B8C;&#x6210;&#x4E4B;&#x540E;&#x4F60;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x7F16;&#x8F91;~/.zshrc&#x8FD9;&#x4E2A;&#x6587;&#x4EF6;&#x4E2D;&#x7684;&#x4E00;&#x4E9B;&#x53C2;&#x6570;&#x6765;&#x8BBE;&#x7F6E;&#x4F60;&#x7684;Shell&#xFF0C;&#x7136;&#x540E;&#x627E;&#x5230;&#x4E0B;&#x9762;&#x8FD9;&#x4E00;&#x9879;ZSH_THEME=&#x201D;robbyrussel&#x201D;&#xFF0C;&#x7136;&#x540E;&#x4FEE;&#x6539;&#x5B83;&#x7684;&#x4E3B;&#x9898;</p>
+<p>Oh My Zsh &#x9ED8;&#x8BA4;&#x81EA;&#x5E26;&#x4E86;&#x4E00;&#x4E9B;&#x9ED8;&#x8BA4;&#x4E3B;&#x9898;&#xFF0C;&#x5B58;&#x653E;&#x5728; ~/.oh-my-zsh/themes &#x76EE;&#x5F55;&#x4E2D;&#x3002;&#x4F60;&#x53EF;&#x4EE5;&#x67E5;&#x770B;&#x8FD9;&#x4E9B;&#x4E3B;&#x9898;&#x3002;</p>
+<p>&#x800C;&#x4E14;&#x6700;&#x91CD;&#x8981;&#x7684;&#x662F;&#xFF0C;&#x5982;&#x679C;&#x4F60;&#x4F7F;&#x7528;git&#x7B49;&#x7BA1;&#x7406;&#x5DE5;&#x5177;&#xFF0C;&#x5728;&#x4F60;&#x4F7F;&#x7528;&#x7EC8;&#x7AEF;&#x65F6;&#x4F60;&#x53EF;&#x4EE5;&#x6E05;&#x6670;&#x7684;&#x770B;&#x5230;&#x81EA;&#x5DF1;&#x9879;&#x76EE;&#x6240;&#x5728;&#x7684;&#x5206;&#x652F;&#x3002;&#x800C;&#x4E14;&#x6211;&#x4E2A;&#x4EBA;&#x7528;&#x7684;&#x662F;Mac&#x4E0A;&#x7684;bash&#xFF0C;&#x6709;&#x65F6;&#x5019;&#x5F53;cd&#x4E00;&#x4E2A;&#x6587;&#x4EF6;&#x65F6;&#xFF0C;&#x6709;&#x53EF;&#x80FD;&#x524D;&#x51E0;&#x4E2A;&#x5B57;&#x6BCD;&#x6216;&#x8005;&#x5565;&#x7684;&#x76F8;&#x540C;&#x8FD9;&#x65F6;&#x5019;&#x5F97;&#x4E86;&#xFF0C;&#x6309;Tab&#x4E0D;&#x7BA1;&#x7528;&#x4E86;&#x5427;&#xFF0C;&#x54C8;&#x54C8;&#x54C8;&#xFF0C;&#x4F46;&#x662F;&#x6709;&#x4E86;&#x8FD9;&#x4E2A;&#xFF0C;&#x5C31;&#x662F;6&#x554A;&#xFF0C;&#x6548;&#x679C;&#x81EA;&#x5DF1;&#x6D4B;&#xFF0C;&#x6211;&#x5C31;&#x4E0D;&#x4E0A;&#x4E86;&#x3002;</p>
+<hr>
+<p>&#x603B;&#x7ED3;</p>
+<p>&#x597D;&#x4E86;&#xFF0C;&#x8BF4;&#x4E86;&#x8FD9;&#x4E48;&#x591A;&#xFF0C;&#x4F60;&#x4EEC;&#x81EA;&#x5DF1;&#x8BD5;&#x8BD5;&#x6548;&#x679C;&#x5427;&#x3002;</p>
+
+  </section>
+
+</article>
+
+
+<section class="post-comments">
+  <!-- 多说评论框 start -->
+  <div class="ds-thread" data-thread-key="http://yoursite.com/2016/05/09/OhMyZsh/" data-title="mac 命令行 zsh" data-url="http://yoursite.com/2016/05/09/OhMyZsh/"></div>
+  <!-- 多说评论框 end -->
+  <!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+  <script type="text/javascript">
+  var duoshuoQuery = {short_name:"superbobo"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+     || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();
+  </script>
+<!-- 多说公共JS代码 end -->
+</section>
+
+
+
+
+            <footer class="footer">
+    <span class="footer__copyright">
+        本站点采用<a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>
+    </span>
+    <span class="footer__copyright">
+        基于 <a href="http://hexo.io">Hexo</a> 搭建，感谢 <a href="https://pages.github.com/">GitHub Pages</a> 提供免费的托管服务
+    </span>
+    <span class="footer__copyright">
+        &copy; 2016 - 本站由 <a href="/">@Longbo Ma</a> 创建,
+        使用<a href="https://github.com/lenbo-ma/hexo-theme-vno">hexo-theme-vno</a>主题,
+        修改自<a href="http://github.com/onevcat/vno" target="_blank">Vno</a>
+    </span>
+</footer>
+
+        </div>
+    </div>
+
+    <script src="http://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+    <script src="/js/main.js"></script>
+
+     
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-42596364-1', 'auto');
+	ga('send', 'pageview');
+</script>
+
+</body>
+</html>
